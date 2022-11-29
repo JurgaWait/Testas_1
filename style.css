@@ -30,11 +30,14 @@ a {
 a:hover {
     color: rgb(24, 34, 24);
   }
-.parent {
+.section1 {
     display: flex;
-    height: 200px;
+    height: 300px;
     width: 100%;
     align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    align-items: flex-start;
 }
 .left {
     width: 50%;
@@ -49,7 +52,7 @@ a:hover {
     height: 100%;
 }
 .left h3 {
-    font-size: 0.5em;
+    font-size: 1em;
     color: rgb(179, 69, 128);
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 10px;
@@ -61,24 +64,38 @@ a:hover {
     padding-bottom: 20px;
 }
 .left p {
-    font-size: 0.5em;
+    font-size: 1em;
     color: grey;
     padding-bottom: 20px;
 }
-.left button {
+.section1 button {
     background-color: white;
     color: black;
     padding: 14px 20px;
     border-color:  rgb(255, 129, 57);
     border-radius: 40px;
-    border-style:outset;
-    justify-content: center;
-    justify-items: center;
     width: 70%;
     height: 50px;
     font-size: 1,5 em;
-  }
-  
-  button:hover {
-    opacity:1;
-  }
+    place-self: center;
+}
+.section2 {
+    background-image: url(./assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin: 10px 0;
+}
+.section2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-top: 70px;
+}
+.section2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.section3 {
+
+}
