@@ -209,10 +209,15 @@ footer {
 footer div {
     padding-bottom: 20px;
 }
-.grid {
+#grid {
     display: grid;
     grid-template-columns: repeat(2, 1 fr);
     align-items: center;
+}
+.final {
+    grid-auto-rows: 50px;
+    grid-auto-columns: 100px;
+    width: 40%;
 }
 
 @media screen and (min-width: 600px) {
