@@ -211,7 +211,7 @@ footer div {
 }
 #grid {
     display: grid;
-    grid-template-columns: repeat(2, 1 fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 .final {
@@ -229,7 +229,7 @@ footer div {
     }
 
     footer > grid {
-        grid-template-columns: repeat(4 1fr);
+    grid-template-columns: repeat(4 1fr);
 
     }
 }
